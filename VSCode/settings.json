@@ -1,0 +1,192 @@
+{
+  /**
+   * Better Defaults
+   **/
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": false,
+  "editor.renderIndentGuides": false,
+  "editor.minimap.enabled": false,
+
+  /**
+   * Silence The Noise
+   */
+  "breadcrumbs.enabled": true,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": false,
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  /**
+   * Typography
+   **/
+  //"workbench.colorTheme": "Natty",
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14, //12
+  "editor.lineHeight": 32, //1.75
+  "editor.suggestFontSize": 16, //15
+  "editor.suggestLineHeight": 28,
+  "terminal.integrated.fontSize": 16, //15
+  "terminal.integrated.lineHeight": 1.5,
+
+  /**
+   * Find
+   **/
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+    "**/vendor/{[^l],?[^ai]}*": true,
+    // Hide everything in /public, except "index.php"
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+
+  /**
+   * Code
+   **/
+  // Include "-" in word selection.
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html",
+    "spec.js": "html"
+  },
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "*.module": "php"
+  },
+
+  /**
+   * PHP
+   **/
+  "php.suggest.basic": false,
+
+  /**
+   * Window Settings
+   **/
+  // "window.nativeTabs": true,
+  // "window.titleBarStyle": "native",
+  "customizeUI.titleBar": "frameless",
+  "customizeUI.stylesheet": {
+    ".editor .title": "background: transparent !important; --title-border-bottom-color: transparent !important;",
+    // ".editor .title": "display: none !important;",
+    ".editor .title .label-container": "visibility: hidden;",
+    // Hide top-right buttons
+    // ".editor > div.content, .editor .editor-container": "background-image: linear-gradient(to bottom right, #191C3E 0%, #172124 100%); background-size: cover;",
+    // ".editor > div.content, .editor .editor-container": "background-image: url(/Users/Reno/Desktop/test.jpg); background-size: cover",
+    // ".monaco-editor-background": "background-color: transparent !important",
+    // ".monaco-editor .margin": "background-color: transparent ! important",
+    // ".monaco-editor": "background-color: transparent ! important",
+    ".editor .title .actions-container .action-item a": "visibility: hidden;",
+    // Show top-right "settings goto icon"
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+    // Make it the "right-most" icon.
+    ".editor .title .actions-container": "flex-direction: row-reverse;",
+    // Only show the scrollbar on hover.
+    ".editor .scrollbar .slider": "visibility: hidden",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+    // Change cursor color.
+    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
+  },
+  "editor.cursorBlinking": "phase",
+  "amVim.vimStyleNavigationInListView": false,
+  "cSpell.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "window.zoomLevel": 1,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Palenight Theme",
+  "workbench.iconTheme": "file-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "php-docblocker.returnGap": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.rulers": [80, 120],
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "workbench.activityBar.visible": false,
+
+  /**
+   * Prettier
+   **/
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  // "prettier.packageManager": "npm",
+  // "prettier.requireConfig": true,
+  // "prettier.useEditorConfig": false
+
+  /**
+   * PHP CS Fixer
+   **/
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.showOutput": false,
+  "php-cs-fixer.autoFixByBracket": false,
+  "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "intelephense.diagnostics.undefinedTypes": false,
+  "security.workspace.trust.untrustedFiles": "open"
+}
