@@ -2,6 +2,8 @@
 
 These are my updated settings for my VSCode as of 2022, with minimal distractions and other things to make life easier with Laravel.
 
+![Screenshot](screenshot.png)
+
 ### Installed Extensions
 
 - [Airbnb react snippets (Prettier)](https://marketplace.visualstudio.com/items?itemName=epiccamel2302.airbnb-react-snippets-prettier) by EpicCamel2302
